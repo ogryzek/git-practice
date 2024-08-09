@@ -2,6 +2,7 @@
   "name": "git-practice",
   "version": "0.0.0",
   "scripts": {
+    "lol": "ng serve --open",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",

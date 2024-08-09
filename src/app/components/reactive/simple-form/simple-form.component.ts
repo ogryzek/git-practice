@@ -10,4 +10,5 @@ import { FormControl, ReactiveFormsModule } from '@angular/forms'
 })
 export class SimpleFormComponent {
   name = new FormControl('')
+  updateName() { this.name.setValue('Mikel'); }
 }

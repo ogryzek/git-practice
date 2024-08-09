@@ -5,6 +5,11 @@
 <p>Name: {{name.value}}</p>
 
 
+<label for="last-name">Name: </label>
+<input id="last-name" type="text" [formControl]="last-name">
+
+<p>Last Name: {{last-name.value}}</p>
+
 <button type="button" (click)="updateName()">
   Update Name
 </button>
